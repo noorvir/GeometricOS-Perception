@@ -23,15 +23,15 @@
 #  include <cstdint>
 #endif 
 
-#include <Eigen/Core>
-#include <Eigen/SVD>
-#include <Eigen/Cholesky>
-#include <Eigen/Geometry>
-#include <Eigen/LU>
+#include <eigen3/Eigen/Core>
+#include <eigen3/Eigen/SVD>
+#include <eigen3/Eigen/Cholesky>
+#include <eigen3/Eigen/Geometry>
+#include <eigen3/Eigen/LU>
 #include <iostream>
 #include <fstream>
 #include <map>
-#include <Utils/OdometryProvider.h>
+#include "../../../../libraries/ElasticFusion/Core/src/Utils/OdometryProvider.h"
 
 class GroundTruthOdometry
 {

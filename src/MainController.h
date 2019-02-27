@@ -19,10 +19,10 @@
 #include <ElasticFusion.h>
 #include <Utils/Parse.h>
 
-#include "Tools/GUI.h"
-#include "Tools/GroundTruthOdometry.h"
-#include "Tools/RawLogReader.h"
-#include "Tools/LiveLogReader.h"
+#include "GUI.h"
+#include "GroundTruthOdometry.h"
+#include "RawLogReader.h"
+#include "LiveLogReader.h"
 
 #ifndef MAINCONTROLLER_H_
 #define MAINCONTROLLER_H_

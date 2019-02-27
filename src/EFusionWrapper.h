@@ -4,10 +4,10 @@
 #include <stdexcept>
 #include <ElasticFusion.h>
 
-#include "utils/GUI/GUI.h"
-#include "utils/GUI/GroundTruthOdometry.h"
-#include "utils/GUI/RawLogReader.h"
-#include "utils/GUI/LiveLogReader.h"
+#include "GUI.h"
+#include "GroundTruthOdometry.h"
+#include "RawLogReader.h"
+#include "LiveLogReader.h"
 
 /**
  * @brief Wrap and extend Elastic Fusion.
